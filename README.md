@@ -28,18 +28,18 @@ In this sample, we will explore how Kodey.ai can create projects and integrate s
 
     step 2: Using WebCrawler Tool, get the information on how to authorize when calling fhir cerner api for https://fhir.cerner.com/authorization/.
 
-    stpe 3: Using WebCrawler Tool, understand how to make request to each endpoint mentioned in fhir cerner immunization endpoint from https://fhir.cerner.com/millennium/r4/clinical/medications/immunization/
+    step 3: Using WebCrawler Tool, understand how to make request to each endpoint mentioned in fhir cerner immunization endpoint from https://fhir.cerner.com/millennium/r4/clinical/medications/immunization/
 
-    step 2:  using GithubCreateNewFile tool, Create a new file called lambda_function.py which have lambda function that will have functions to call the above mentioned endpoints and get the data.
+    step 4:  Using GithubCreateNewFile tool, Create a new file called lambda_function.py which have lambda function that will have functions to call the above mentioned endpoints and get the data.
     NOTE: All the credentials and tokens should be stored in environment variables and be read from environment variables in the code.
 
-    step 3: using GithubCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
+    step 5: Using GithubCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
 
-    step 4: using GithubCreateNewFile tool, Create a new Docker file that contains the instructions to build the docker image for the lambda function created in the previous step.
+    step 6: Using GithubCreateNewFile tool, Create a new Docker file that contains the instructions to build the docker image for the lambda function created in the previous step.
 
-    step 5: using GithubCreateNewFile tool, Create a new file called serverless.yml which should contain the configuration for the serverless framework to deploy the lambda function and the API Gateway.
+    step 7: Using GithubCreateNewFile tool, Create a new file called serverless.yml which should contain the configuration for the serverless framework to deploy the lambda function and the API Gateway.
     
-    step 6: using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "FHIR CERNER API ENDPOINTS".
+    step 8: Using GithubCreatePullRequest tool, create a new Pull Request from the above created branch with title "FHIR CERNER API ENDPOINTS".
 
 ```
 
@@ -56,21 +56,21 @@ In this sample, we will explore how Kodey.ai can create projects and integrate s
 
     step 2: Using WebCrawler Tool, get the information on how to authorize when calling fhir cerner api for https://fhir.cerner.com/authorization/.
 
-    stpe 3: Using WebCrawler Tool, understand how to make request to each endpoint mentioned in fhir cerner immunization endpoint from https://fhir.cerner.com/millennium/r4/clinical/medications/immunization/
+    step 3: Using WebCrawler Tool, understand how to make request to each endpoint mentioned in fhir cerner immunization endpoint from https://fhir.cerner.com/millennium/r4/clinical/medications/immunization/
 
-    step 2:  using AzureDevopsRepositoryCreateNewFile tool, Create a new file called lambda_function.py which have lambda function that will have functions to call the above mentioned endpoints and get the data.
+    step 2:  Using AzureDevopsRepositoryCreateNewFile tool, Create a new file called lambda_function.py which have lambda function that will have functions to call the above mentioned endpoints and get the data.
     NOTE: All the credentials and tokens should be stored in environment variables and be read from environment variables in the code.
 
-    step 3: using AzureDevopsRepositoryCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
+    step 3: Using AzureDevopsRepositoryCreateNewFile tool, cerate a new file called requirements.txt and add the packages required to run the code.
 
-    step 4: using AzureDevopsRepositoryCreateNewFile tool, Create a new Docker file that contains the instructions to build the docker image for the lambda function created in the previous step.
+    step 4: Using AzureDevopsRepositoryCreateNewFile tool, Create a new Docker file that contains the instructions to build the docker image for the lambda function created in the previous step.
 
-    step 5: using AzureDevopsRepositoryCreateNewFile tool, Create a new file called serverless.yml which should contain the configuration for the serverless framework to deploy the lambda function and the API Gateway.
+    step 5: Using AzureDevopsRepositoryCreateNewFile tool, Create a new file called serverless.yml which should contain the configuration for the serverless framework to deploy the lambda function and the API Gateway.
     
-    step 6: using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "FHIR CERNER API ENDPOINTS".
+    step 6: Using AzureDevopsPullRequestsCreatePullRequest tool, create a new Pull Request from the above created branch with title "FHIR CERNER API ENDPOINTS".
 
 
-    step 7: using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
+    step 7: Using AzureDevopsIssuesUpdateIssue tool, update the issue status to done.
 ```
 
 ### SAMPLE PROMPT - Jira / Bitbucket (Making Project That hits API requests extract data and define serverless file)
@@ -87,20 +87,20 @@ In this sample, we will explore how Kodey.ai can create projects and integrate s
 
     step 2: Using WebCrawler Tool, get the information on how to authorize when calling fhir cerner api for https://fhir.cerner.com/authorization/.
 
-    stpe 3: Using WebCrawler Tool, understand how to make request to each endpoint mentioned in fhir cerner immunization endpoint from https://fhir.cerner.com/millennium/r4/clinical/medications/immunization/
+    step 3: Using WebCrawler Tool, understand how to make request to each endpoint mentioned in fhir cerner immunization endpoint from https://fhir.cerner.com/millennium/r4/clinical/medications/immunization/
 
-    step 2:  using BitBucketWriteCode tool, Create a new file called lambda_function.py which have lambda function that will have functions to call the above mentioned endpoints and get the data.
+    step 4:  Using BitBucketWriteCode tool, Create a new file called lambda_function.py which have lambda function that will have functions to call the above mentioned endpoints and get the data.
     NOTE: All the credentials and tokens should be stored in environment variables and be read from environment variables in the code.
 
-    step 3: using BitBucketWriteCode tool, cerate a new file called requirements.txt and add the packages required to run the code.
+    step 5: Using BitBucketWriteCode tool, cerate a new file called requirements.txt and add the packages required to run the code.
 
-    step 4: using BitBucketWriteCode tool, Create a new Docker file that contains the instructions to build the docker image for the lambda function created in the previous step.
+    step 6: Using BitBucketWriteCode tool, Create a new Docker file that contains the instructions to build the docker image for the lambda function created in the previous step.
 
-    step 5: using BitBucketWriteCode tool, Create a new file called serverless.yml which should contain the configuration for the serverless framework to deploy the lambda function and the API Gateway.
+    step 7: Using BitBucketWriteCode tool, Create a new file called serverless.yml which should contain the configuration for the serverless framework to deploy the lambda function and the API Gateway.
     
-    step 6: using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "FHIR CERNER API ENDPOINTS".
+    step 8: Using BitBucketCreateNewPullRequest tool, create a new Pull Request from the above created branch with title "FHIR CERNER API ENDPOINTS".
 
-    step 7: Update this jira issue status to done.
+    step 9: Update this jira issue status to done.
 
 ```
 
@@ -118,7 +118,7 @@ In this sample, we will explore how Kodey.ai can create projects and integrate s
 
 ### Jira Issue and Bitbucket Repo
 ```
-   Get the issue with id <issue_id> from bitbucket repo and do as the description of the issue says.
+   Get the issue with id <issue_id> from jira and do as the description of the issue says.
 ```
 
 ## Confirming Successful Sample Outputs
